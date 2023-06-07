@@ -1,0 +1,152 @@
+List<Map<dynamic, dynamic>> kisilerVeSozler = [
+  {
+    "kisi": "Steve Jobs",
+    "tanitim":
+        "Teknoloji dünyasında devrim yaratan ve Apple'ın kurucusu olan vizyoner bir liderdir.",
+    "sozleri": [
+      "Yaptığınız işi sevin. Asla vazgeçmeyin. İşinizi gerçekten sevmiyorsanız, bir noktada pes edersiniz.",
+      "İşinizle dünyayı değiştirme şansına sahipsiniz. Onu iyi kullanın.",
+      "Sizleri tanıdığımdan beri, işimi bir tutku olarak görmenin hayati bir öneme sahip olduğunu öğrendim.",
+      "Başarılı olmanın sırrı, işinizde tutkuyu bulmak ve her gün yapmaktan keyif almak.",
+      "Başarılı olmak, sadece paraya veya üne sahip olmak değildir. Başarılı olmak, yaptığınız işte gerçekten tatmin olmaktır.",
+      "Kendi fikirlerinize güvenin, içgüdülerinizi dinleyin. Düşüncelerinizi sorgulamayın, onları şekillendirin.",
+      "İş hayatında bir fark yaratmak istiyorsanız, sadece takip etmeyin, liderlik edin.",
+      "Kaliteli ürünler yaratmak için ayrıntılara önem verin. Küçük detaylar, büyük farklar yaratır.",
+      "İnsanları şaşırtın, hayran bırakın. İnovasyon, beklenmedik şeyler yapmaktır.",
+      "Hatalar yapın. Hatalarınızdan öğrenin ve daha iyi bir hale gelin. Başarınızı engelleyen korkularınızı bırakın.",
+      "Yaşamınızın büyük bir kısmını çalışarak geçireceksiniz, o yüzden işinizi sevdiğinizden emin olun."
+    ],
+    "resimYolu": "asssets/images/steve.jpeg",
+    "hayati": "https://tr.wikipedia.org/wiki/Steve_Jobs",
+  },
+  {
+    "kisi": "Prof.Dr. Necmettin Erbakan",
+    "tanitim":
+        "Türkiye'nin ilk müslüman kökenli başbakanı ve Milli Görüş hareketinin öncülerinden biri olarak tanınır.",
+    "sozleri": [
+      "Şuursuz müslüman olmaz. Namazda okuduklarıyla dışarıda yaptıkları aynı olmayanlar, şuursuz ve sorumsuz insanlardır.",
+      "Hayat, doğruyla yanlışın, güzelle çirkinin, faydalıyla zararlının, adaletle zulmün mücadelesinden ibarettir.",
+      "İnanıyorsanız en üstünsünüz. Zafer ise elbette inananlarındır ve zafer yakındır. İşte bizim davamız budur. Ne mutlu bu hak davada canla başla koşanlara.",
+      "Bir işi başarmak için önce o işin delisi olmak lazım.",
+      "İnanıyorsanız en üstünsünüz. Zafer ise elbette inananlarındır ve zafer yakındır. İşte bizim davamız budur. Ne mutlu bu hak davada canla başla koşanlara.",
+      "'Onların dağları yerinden oynatabilecek gücü' dahi olsa, mutlak kuvvet ve kudret sahibi yalnız Cenabı Allah'tır.",
+      "Buluşun  ve bilginin asıl sahipleri Müslümanlardır. Avrupalı bizden bunu anlamdan almış, biz de anlamadan onlardan alıyoruz."
+    ],
+    "resimYolu": "asssets/images/erbakan.jpg",
+    "hayati": "https://tr.wikipedia.org/wiki/Necmettin_Erbakan",
+  },
+  {
+    "kisi": "Mustafa Kemal Atatürk",
+    "tanitim":
+        "Türkiye'nin kurucusu ve çağdaşlaşma hareketinin lideri olarak Türk ulusunun geleceğini şekillendiren bir devrimcidir.",
+    "sozleri": [
+      "Yeni nesil, Cumhuriyet'in yarınlarının yegane temsilcisi, size güveniyoruz.",
+      "Gençler, geleceğin mimarları sizsiniz. Ülkenizi en iyi şekilde inşa etmek sizin elinizdedir.",
+      "Eğitim, yeni nesilleri özgürleştiren ve geleceğin liderleri yetiştiren en önemli araçtır.",
+      "Geleceğin Türkiye'si sizin omuzlarınızda yükselecek. Azimle çalışın, bilgiyle donanın ve hayallerinizi gerçekleştirin.",
+      "Değişim ve ilerleme, gençlerin enerjisi ve fikirleriyle gerçekleşir. Sizler, büyük bir değişimin öncüleri olabilirsiniz."
+          "Gençlik, her türlü engeli aşabilecek güce sahiptir. İnanın ve hedefleriniz için mücadele edin.",
+      "Gelecekteki başarılarınız, bugünkü çalışmalarınıza bağlıdır. Sabırlı olun, azimli olun ve hedeflerinizden asla vazgeçmeyin.",
+      "Geleceğin liderleri, sorunlara çözüm üretebilen, dürüstlüğü ve adaleti benimseyen kişilerdir. Bu özellikleri kendinizde bulundurun.",
+      "Siz gençler, Cumhuriyetimizin teminatısınız. Demokrasiye, insan haklarına ve bilimsel ilerlemeye sahip çıkın.",
+      "Gençlerin umutları ve idealleri, dünyayı dönüştüren en güçlü güçtür. Sizlerin gelecekteki başarıları için yanınızdayız.",
+    ],
+    "resimYolu": "asssets/images/ataturk.jpg",
+    "hayati": "https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+    
+  },
+  {
+    "kisi": "Malala Yousafzai",
+    "tanitim":
+        "Eğitim hakları için mücadele eden ve kız çocuklarının eğitimine odaklanan bir cesur aktivisttir.",
+    "sozleri": [
+      "Eğitim silahınız olsun, kaleminizle dünyayı değiştirin.",
+      "Hiçbir şeyi imkansız olarak görme, sadece zorlu.",
+      "Sesinizi duyurun, çünkü her bir sözcük bir devrimin başlangıcı olabilir.",
+      "Dünya değişimi sizinle bekliyor, hayallerinizin peşinden koşun.",
+      "Kadınların eşitlik mücadelesi, adaletin herkes için gerçekleşmesi için bir adımdır.",
+      "Karanlıkta ışık olun, umut saçın.",
+      "Başkalarının sesi olmak için sessizliği kırın.",
+      "Hayatta en büyük zafer, korkularınızı aşmak ve kendinize inanmaktır.",
+      "Küçük bir eylem, büyük bir değişime dönüşebilir.",
+      "Geleceği değiştirmek sizin ellerinizde, harekete geçin.",
+    ],
+    "resimYolu": "asssets/images/malala.jpg",
+    "hayati": "https://tr.wikipedia.org/wiki/Malala_Yusufzay",
+  },
+  {
+    "kisi": "Elon Musk",
+    "tanitim":
+        "Yenilikçi teknolojilerle sürdürülebilir enerji, uzay keşfi ve otonom araçlar gibi alanlarda öncü bir girişimci ve vizyonerdir.",
+    "sozleri": [
+      "Sadece bir hayal kurmakla yetinmeyin, onu gerçekleştirmek için çalışın.",
+      "İmkansız diye bir şey yok, sadece henüz gerçekleşmemiş olanlar var.",
+      "Risk almadan büyük başarılar elde etmek mümkün değildir.",
+      "Dünya değişim ve yenilik için cesur liderlere ihtiyaç duyuyor.",
+      "Bir sorunu çözmek yerine, geleceği inşa etmeye odaklanın.",
+      "İnsanların hayallerinizi gerçekleştiremeyeceğinizi söylemesine izin vermeyin, kendiniz deneyin.",
+      "Bir misyonu olan bir insan, gücü olan bir insandır.",
+      "Başarı, sürekli öğrenme ve yenilik yapma yeteneğinde yatar.",
+      "Büyük düşünün, büyük riskler alın ve büyük başarılar elde edin.",
+      "Başarısızlıklarınız sizi durdurmasına izin vermeyin, onlardan ders alın ve ileriye doğru ilerleyin.",
+    ],
+    "resimYolu": "asssets/images/elon.jpg",
+    "hayati": "https://tr.wikipedia.org/wiki/Elon_Musk",
+  },
+  {
+    "kisi": "Serena Williams",
+    "tanitim":
+        "Tenis tarihindeki üstün yetenekleri ve rekabetçi ruhuyla tanınan bir efsanedir.",
+    "sozleri": [
+      "Kendine olan inancın, başkalarının sana olan inancını aşmasını sağlar.",
+      "Hayatta önemli olan şey, düşmek değil, her düştüğünde tekrar ayağa kalkmaktır.",
+      "Başarı, sürekli çalışmanın, disiplinin ve azmin bir sonucudur.",
+      "Kendine güven, kendi gücünün farkına varmaktır.",
+      "Sınırları zorlamaktan korkmayın, gerçek potansiyelinizi keşfedin.",
+      "Kendinizi güçlü hissetmiyorsanız, gücünüzü gösterene kadar kendinizi güçlüymiş gibi davranın.",
+      "Kadınlar her alanda liderlik rolünü üstlenebilir, sadece inanmamız ve çabalamamız gerekiyor.",
+      "Yaptığınız işe tutkuyla bağlı olun, gerisi gelecektir.",
+      "Başarı sadece galibiyetle ölçülmez, mücadele etmek ve ilerlemek de bir başarıdır.",
+      "Kendinizin en iyi versiyonu olmak için her gün kendinizi geliştirin.",
+    ],
+    "resimYolu": "asssets/images/serena.jpg",
+    "hayati": "https://en.wikipedia.org/wiki/Serena_Williams",
+  },
+  {
+    "kisi": "Nelson Mandela",
+    "tanitim":
+        "Güney Afrika'da ırk ayrımcılığına karşı mücadele eden ve barışçıl bir liderlikle adaleti sağlayan bir özgürlük savaşçısıdır.",
+    "sozleri": [
+      "Eğer değişimi görmek istiyorsanız, önce kendiniz değişin.",
+      "Karanlıkta kalan insanları aydınlatmak için kendi ışığınızı yakın.",
+      "Sevgi nefreti yenebilir, umut umutsuzluğu yenebilir, ışık karanlığı yenebilir.",
+      "Asla vazgeçmeyin, zorlu yolculuklar bile değerlidir.",
+      "Eğitim, en güçlü silahtır, dünyayı değiştirebilir.",
+      "Adalet ve eşitlik için savaşmak hiçbir zaman boşuna değildir.",
+      "Geçmişi affetmek, geleceğinizi inşa etmeniz için güçlü bir adımdır.",
+      "Siyasi veya sosyal durumunuz sizi sınırlamamalı, sınırları zorlamalısınız.",
+      "Bir birey olarak fark yaratma gücüne sahipsiniz, dünyayı değiştirme potansiyelinizi kullanın.",
+      "Barış için mücadele edin, çünkü dünya barışı için her bir bireye ihtiyaç duyar.",
+    ],
+    "resimYolu": "asssets/images/nelson.jpg",
+    "hayati": "https://tr.wikipedia.org/wiki/Nelson_Mandela",
+  },
+  {
+    "kisi": "Oprah Winfrey",
+    "tanitim" : "Medya ikonu ve güçlü bir kadın figürü olarak, kendi talk show'u ve toplumsal konulara olan duyarlılığıyla tanınan bir isimdir.",
+    "sozleri": [
+      "Kendinize inanın, başkaları sizi takip etmeye başlayacak.",
+      "Kendinizi sevin, kendi değerinizi bilmek, başkalarının sizi takdir etmesini sağlar.",
+      "Hayalleriniz gerçek olsun diye beklemeyin, hayalinizi gerçekleştirmek için harekete geçin.",
+      "Geçmişiniz sizi tanımlamaz, geleceğinizde ne yapacağınızı belirler.",
+      "Sorunlarınız sizi yenmek için değil, sizi güçlendirmek için vardır.",
+      "İyi olmanın anahtarı, başkalarının hayatına dokunmaktır.",
+      "İnanç, zor zamanlarda size ışık tutacak olan güçlü bir araçtır.",
+      "Kendinizi ifade etmekten korkmayın, dünyaya bir hediye olarak var olduğunuzu hatırlayın.",
+      "İsteklerinizi takip edin, kendi gerçekliğinizi yaratın.",
+      "Dışarıdan gelen şüpheleri, içinizdeki güçlü sesi dinleyerek yenin.",
+    ],
+    "resimYolu": "asssets/images/oprah.jpg",
+    "hayati": "https://tr.wikipedia.org/wiki/Oprah_Winfrey",
+  },
+];
