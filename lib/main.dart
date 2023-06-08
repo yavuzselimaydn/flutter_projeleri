@@ -4,7 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'myhomepage.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp( const MyApp());
 }
 
 class MyApp extends StatelessWidget {

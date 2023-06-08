@@ -18,10 +18,10 @@ class _MyHomePageState extends State<MyHomePage> {
   String kisaTanitim = "";
   int i = 0;
   int j = 0;
-  String hayati_link = "https://www.linkedin.com/in/yavuz-selim-ayd%C4%B1n-186358241/?original_referer=";
+  String hayatiLink = "https://www.linkedin.com/in/yavuz-selim-ayd%C4%B1n-186358241/?original_referer=";
 
   _launchURL() async {
-  final Uri url = Uri.parse(hayati_link);
+  final Uri url = Uri.parse(hayatiLink);
   if(!await launchUrl(url, mode: LaunchMode.externalApplication )){
     throw Exception("Link bulunamadi : $url");
   }
@@ -40,24 +40,23 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           
           //profil fotoğrafına button ekledim.
-          TextButton(
-            onPressed: () {
-              _launchURL();
-            },
-            child: Padding(
-              padding: EdgeInsets.only(
-                  top: ekranYuksekligi / 30, bottom: ekranYuksekligi / 150),
-              child: Container(
-                decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    border: Border.all(width: 3, color: Colors.teal)),
-                child: CircleAvatar(
-                  backgroundImage: AssetImage(link),
-                  radius: 75,
+           GestureDetector(
+            onTap: () => _launchURL(),
+             child: Padding(
+                padding: EdgeInsets.only(
+                    top: ekranYuksekligi / 30, bottom: ekranYuksekligi / 150),
+                child: Container(
+                  decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(width: 3, color: Colors.teal)),
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage(link),
+                    radius: 75,
+                  ),
                 ),
               ),
-            ),
-          ),
+           ),
+          
           
           //kişi ismini yazdırdım.
           Text(
@@ -137,7 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         link = seciliKisi["resimYolu"];
                         ilhamlar = seciliKisi["sozleri"];
                         kisaTanitim = seciliKisi["tanitim"];
-                        hayati_link = seciliKisi["hayati"];
+                        hayatiLink = seciliKisi["hayati"];
                         i++;
                       });
                     },
